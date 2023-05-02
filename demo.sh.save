@@ -1,0 +1,30 @@
+#!/bin/sh
+echo "What is your name?"
+read person
+echo "Hello, $person"
+#comments 
+name="shubham"
+unset name #it wil unset thw variable and the var becomes empty
+#readonly name
+name="nikhil"
+#special var
+$0
+#$1.....9
+$# #return the number of argument that i suplied to it
+$* #return the all argumrnt that are ""
+$@ #return the  individualy double quoted
+$? # exit status of the last command
+$$ #process number of the current shell of the shell script
+echo "file name: $0"
+echo "file parameter: $1"
+echo "file name: $2"
+echo "file name: $3"
+echo "file name: $4"
+echo "file name: $5"
+echo "file name: $6"
+echo "file name: $7"
+echo "file name: $8"
+echo "file name: $secondparameter"
+
+
+
